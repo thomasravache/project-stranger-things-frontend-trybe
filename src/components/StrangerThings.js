@@ -115,7 +115,7 @@ class StrangerThings extends React.Component {
           hereIsTheUpsideDownWorld,
         )}` }
       >
-        <h1>{ enviroment === 'development' && 'Em desenvolvimento' }</h1>
+        <h1>{ enviroment === 'development' ? 'Em desenvolvimento' : 'deu ruim' }</h1>
         <div className="content strangerfy">
           <div className="change-reality">
             <button type="button" onClick={ this.changeRealityClick }>
