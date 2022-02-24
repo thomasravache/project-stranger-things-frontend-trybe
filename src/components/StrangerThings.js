@@ -24,6 +24,7 @@ class StrangerThings extends React.Component {
     super(props);
 
     this.state = {
+      enviroment: process.env.NODE_ENV,
       hereIsTheUpsideDownWorld: false,
       characterName: '',
       characters: [],
@@ -106,6 +107,7 @@ class StrangerThings extends React.Component {
   render() {
     const {
       hereIsTheUpsideDownWorld, characterName, characters, page,
+      enviroment,
     } = this.state;
     return (
       <div
@@ -113,6 +115,7 @@ class StrangerThings extends React.Component {
           hereIsTheUpsideDownWorld,
         )}` }
       >
+        <h1>{ enviroment === 'development' && 'Em desenvolvimento' }</h1>
         <div className="content strangerfy">
           <div className="change-reality">
             <button type="button" onClick={ this.changeRealityClick }>
