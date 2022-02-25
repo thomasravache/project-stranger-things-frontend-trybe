@@ -1,9 +1,7 @@
-# Boas vindas ao repositório frontend do projeto de Deploy - Stranger Things!
+# Funcionamento
 
-Aqui você vai encontrar os locais para colocar suas repostas relativas aos requisitos de frontend.
+Aplicativo backend que se comunica com o aplicativo frontend do repositório [project-stranger-things-backend-trybe](https://github.com/thomasravache/project-stranger-things-backend-trybe/)
 
-**Lembre-se**: coloque as respostas apenas dos requisitos que contém o seguinte direcionamento:
+# Habilidades do projeto
 
-  - Adicione os comandos utilizados, de maneira sequencial, ao README do frontend.
-
-**Nota**: Este direcionamento está presente no [repositório](https://github.com/tryber/sd-014-c-stranger-things) em que os requisitos do projeto são destrinchados.
+ - Adaptar e configurar o Heroku.
